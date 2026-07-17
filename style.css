@@ -1,0 +1,35 @@
+body {
+  background: #0d0d0d;
+  color: #AA00FF;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.loading-container {
+  margin-top: 100px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background: url('https://files.catbox.moe/4fzfzy.png') no-repeat center/cover;
+  border-radius: 50%;        /* makes it circular */
+  margin: 0 auto 20px;
+  border: 4px solid #fff; /* adds a colored line around */
+}
+
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  background: #333;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  width: 10%;
+  height: 100%;
+  background: #fff;
+  transition: width 0.3s;
+}
